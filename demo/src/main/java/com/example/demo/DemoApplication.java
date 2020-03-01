@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @ComponentScan("com.test.aop")
 @ComponentScan("com.example.demo")
 @ComponentScan("com.test.rest")
+@ComponentScan("com.service.layer")
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
 	 private Logger logger = LoggerFactory.getLogger(this.getClass());
